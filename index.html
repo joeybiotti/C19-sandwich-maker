@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandwich Maker</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+      <!--   <h1>Sandwich Maker</h1> -->
+    </header>
+    <hr>
+    <h3>What do you want in your sandwich?</h3>
+    <br> Meat:
+    <select id="meat-chooser">
+        <option>Turkey</option>
+        <option>Ham</option>
+        <option>Vegan</option>
+    </select>
+    <br> Cheese:
+    <select id="cheese-chooser">
+        <option>American</option>
+        <option>Cheddar</option>
+        <option>Swiss</option>
+        <option>Government Cheeze</option>
+    </select>
+    <br> Condiments:
+    <select id="condiment-chooser">
+        <option>Mustard</option>
+        <option>Mayo</option>
+    </select>
+    <br> Veggies:
+    <select id="veggie-choose">
+        <option>Lettuce</option>
+        <option>Tomato</option>
+        <option>Onion</option>
+    </select>
+    <br> Bread:
+    <select id="bread-chooser">
+        <option>White</option>
+        <option>Whole Wheat</option>
+        <option>No Bread</option>
+    </select>
+    <br>
+    <input type="checkbox">Add Bacon</input>
+    <input type="checkbox">Add Hot Peppers</input>
+    <br>
+    <button id="order">Place Order</button>
+    <button id="clear">Clear Order</button>
+    <hr>
+    <div id="sandwich"></div>
+    <footer>&copy; 2017</footer>
+    <script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+    <!-- JavaScript modules -->
+    <script type="text/javascript" src="javascripts/Meat.js"></script>
+    <script type="text/javascript" src="javascripts/Cheese.js"></script>
+    <script type="text/javascript" src="javascripts/Bread.js"></script>
+    <script type="text/javascript" src="javascripts/Condiments.js"></script>
+    <script type="text/javascript" src="javascripts/Veggies.js"></script>
+    <!-- DOM handler -->
+    <script type="text/javascript" src="javascripts/DOMHandler.js"></script>
+</body>
+
+</html>
